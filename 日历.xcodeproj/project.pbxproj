@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702658AE1D2E876400C9C06F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702658AD1D2E876400C9C06F /* main.m */; };
+		702658B11D2E876400C9C06F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702658B01D2E876400C9C06F /* AppDelegate.m */; };
+		702658B41D2E876400C9C06F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702658B31D2E876400C9C06F /* ViewController.m */; };
+		702658B71D2E876400C9C06F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702658B51D2E876400C9C06F /* Main.storyboard */; };
+		702658B91D2E876400C9C06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702658B81D2E876400C9C06F /* Assets.xcassets */; };
+		702658BC1D2E876400C9C06F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702658BA1D2E876400C9C06F /* LaunchScreen.storyboard */; };
+		702658C71D2E876400C9C06F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702658C61D2E876400C9C06F /* __Tests.m */; };
+		702658D21D2E876400C9C06F /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702658D11D2E876400C9C06F /* __UITests.m */; };
+		7048AED51D5EB7CE006B5217 /* CalendarVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048AED41D5EB7CE006B5217 /* CalendarVIew.m */; };
+		7048AED81D5EB848006B5217 /* WjCalendarVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048AED71D5EB848006B5217 /* WjCalendarVIew.m */; };
+		7048AEDC1D5EB987006B5217 /* UIView+VIewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048AEDB1D5EB987006B5217 /* UIView+VIewFrame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		702658C31D2E876400C9C06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702658A11D2E876400C9C06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702658A81D2E876400C9C06F;
+			remoteInfo = "日历";
+		};
+		702658CE1D2E876400C9C06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 702658A11D2E876400C9C06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 702658A81D2E876400C9C06F;
+			remoteInfo = "日历";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		702658A91D2E876400C9C06F /* 日历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "日历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702658AD1D2E876400C9C06F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		702658AF1D2E876400C9C06F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		702658B01D2E876400C9C06F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		702658B21D2E876400C9C06F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		702658B31D2E876400C9C06F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		702658B61D2E876400C9C06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702658B81D2E876400C9C06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702658BB1D2E876400C9C06F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702658BD1D2E876400C9C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702658C21D2E876400C9C06F /* 日历Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日历Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702658C61D2E876400C9C06F /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		702658C81D2E876400C9C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702658CD1D2E876400C9C06F /* 日历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "日历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702658D11D2E876400C9C06F /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
+		702658D31D2E876400C9C06F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7048AED31D5EB7CE006B5217 /* CalendarVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarVIew.h; sourceTree = "<group>"; };
+		7048AED41D5EB7CE006B5217 /* CalendarVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarVIew.m; sourceTree = "<group>"; };
+		7048AED61D5EB848006B5217 /* WjCalendarVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WjCalendarVIew.h; sourceTree = "<group>"; };
+		7048AED71D5EB848006B5217 /* WjCalendarVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WjCalendarVIew.m; sourceTree = "<group>"; };
+		7048AED91D5EB870006B5217 /* WJHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJHeader.h; sourceTree = "<group>"; };
+		7048AEDA1D5EB987006B5217 /* UIView+VIewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VIewFrame.h"; sourceTree = "<group>"; };
+		7048AEDB1D5EB987006B5217 /* UIView+VIewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VIewFrame.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702658A61D2E876400C9C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658BF1D2E876400C9C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658CA1D2E876400C9C06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702658A01D2E876400C9C06F = {
+			isa = PBXGroup;
+			children = (
+				702658AB1D2E876400C9C06F /* 日历 */,
+				702658C51D2E876400C9C06F /* 日历Tests */,
+				702658D01D2E876400C9C06F /* 日历UITests */,
+				702658AA1D2E876400C9C06F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702658AA1D2E876400C9C06F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702658A91D2E876400C9C06F /* 日历.app */,
+				702658C21D2E876400C9C06F /* 日历Tests.xctest */,
+				702658CD1D2E876400C9C06F /* 日历UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702658AB1D2E876400C9C06F /* 日历 */ = {
+			isa = PBXGroup;
+			children = (
+				7048AED91D5EB870006B5217 /* WJHeader.h */,
+				7048AEDA1D5EB987006B5217 /* UIView+VIewFrame.h */,
+				7048AEDB1D5EB987006B5217 /* UIView+VIewFrame.m */,
+				702658AF1D2E876400C9C06F /* AppDelegate.h */,
+				702658B01D2E876400C9C06F /* AppDelegate.m */,
+				702658B21D2E876400C9C06F /* ViewController.h */,
+				702658B31D2E876400C9C06F /* ViewController.m */,
+				7048AED31D5EB7CE006B5217 /* CalendarVIew.h */,
+				7048AED41D5EB7CE006B5217 /* CalendarVIew.m */,
+				7048AED61D5EB848006B5217 /* WjCalendarVIew.h */,
+				7048AED71D5EB848006B5217 /* WjCalendarVIew.m */,
+				702658B51D2E876400C9C06F /* Main.storyboard */,
+				702658B81D2E876400C9C06F /* Assets.xcassets */,
+				702658BA1D2E876400C9C06F /* LaunchScreen.storyboard */,
+				702658BD1D2E876400C9C06F /* Info.plist */,
+				702658AC1D2E876400C9C06F /* Supporting Files */,
+			);
+			path = "日历";
+			sourceTree = "<group>";
+		};
+		702658AC1D2E876400C9C06F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				702658AD1D2E876400C9C06F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		702658C51D2E876400C9C06F /* 日历Tests */ = {
+			isa = PBXGroup;
+			children = (
+				702658C61D2E876400C9C06F /* __Tests.m */,
+				702658C81D2E876400C9C06F /* Info.plist */,
+			);
+			path = "日历Tests";
+			sourceTree = "<group>";
+		};
+		702658D01D2E876400C9C06F /* 日历UITests */ = {
+			isa = PBXGroup;
+			children = (
+				702658D11D2E876400C9C06F /* __UITests.m */,
+				702658D31D2E876400C9C06F /* Info.plist */,
+			);
+			path = "日历UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702658A81D2E876400C9C06F /* 日历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702658D61D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历" */;
+			buildPhases = (
+				702658A51D2E876400C9C06F /* Sources */,
+				702658A61D2E876400C9C06F /* Frameworks */,
+				702658A71D2E876400C9C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "日历";
+			productName = "日历";
+			productReference = 702658A91D2E876400C9C06F /* 日历.app */;
+			productType = "com.apple.product-type.application";
+		};
+		702658C11D2E876400C9C06F /* 日历Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702658D91D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历Tests" */;
+			buildPhases = (
+				702658BE1D2E876400C9C06F /* Sources */,
+				702658BF1D2E876400C9C06F /* Frameworks */,
+				702658C01D2E876400C9C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702658C41D2E876400C9C06F /* PBXTargetDependency */,
+			);
+			name = "日历Tests";
+			productName = "日历Tests";
+			productReference = 702658C21D2E876400C9C06F /* 日历Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		702658CC1D2E876400C9C06F /* 日历UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702658DC1D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历UITests" */;
+			buildPhases = (
+				702658C91D2E876400C9C06F /* Sources */,
+				702658CA1D2E876400C9C06F /* Frameworks */,
+				702658CB1D2E876400C9C06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				702658CF1D2E876400C9C06F /* PBXTargetDependency */,
+			);
+			name = "日历UITests";
+			productName = "日历UITests";
+			productReference = 702658CD1D2E876400C9C06F /* 日历UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702658A11D2E876400C9C06F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wsj;
+				TargetAttributes = {
+					702658A81D2E876400C9C06F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					702658C11D2E876400C9C06F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 702658A81D2E876400C9C06F;
+					};
+					702658CC1D2E876400C9C06F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 702658A81D2E876400C9C06F;
+					};
+				};
+			};
+			buildConfigurationList = 702658A41D2E876400C9C06F /* Build configuration list for PBXProject "日历" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702658A01D2E876400C9C06F;
+			productRefGroup = 702658AA1D2E876400C9C06F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702658A81D2E876400C9C06F /* 日历 */,
+				702658C11D2E876400C9C06F /* 日历Tests */,
+				702658CC1D2E876400C9C06F /* 日历UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702658A71D2E876400C9C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702658BC1D2E876400C9C06F /* LaunchScreen.storyboard in Resources */,
+				702658B91D2E876400C9C06F /* Assets.xcassets in Resources */,
+				702658B71D2E876400C9C06F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658C01D2E876400C9C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658CB1D2E876400C9C06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702658A51D2E876400C9C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702658B41D2E876400C9C06F /* ViewController.m in Sources */,
+				7048AEDC1D5EB987006B5217 /* UIView+VIewFrame.m in Sources */,
+				702658B11D2E876400C9C06F /* AppDelegate.m in Sources */,
+				7048AED81D5EB848006B5217 /* WjCalendarVIew.m in Sources */,
+				702658AE1D2E876400C9C06F /* main.m in Sources */,
+				7048AED51D5EB7CE006B5217 /* CalendarVIew.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658BE1D2E876400C9C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702658C71D2E876400C9C06F /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		702658C91D2E876400C9C06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702658D21D2E876400C9C06F /* __UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		702658C41D2E876400C9C06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702658A81D2E876400C9C06F /* 日历 */;
+			targetProxy = 702658C31D2E876400C9C06F /* PBXContainerItemProxy */;
+		};
+		702658CF1D2E876400C9C06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 702658A81D2E876400C9C06F /* 日历 */;
+			targetProxy = 702658CE1D2E876400C9C06F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		702658B51D2E876400C9C06F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702658B61D2E876400C9C06F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702658BA1D2E876400C9C06F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702658BB1D2E876400C9C06F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702658D41D2E876400C9C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		702658D51D2E876400C9C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702658D71D2E876400C9C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		702658D81D2E876400C9C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "日历/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		702658DA1D2E876400C9C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "日历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日历.app/日历";
+			};
+			name = Debug;
+		};
+		702658DB1D2E876400C9C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "日历Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/日历.app/日历";
+			};
+			name = Release;
+		};
+		702658DD1D2E876400C9C06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "日历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "日历";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		702658DE1D2E876400C9C06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "日历UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "日历";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702658A41D2E876400C9C06F /* Build configuration list for PBXProject "日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702658D41D2E876400C9C06F /* Debug */,
+				702658D51D2E876400C9C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702658D61D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702658D71D2E876400C9C06F /* Debug */,
+				702658D81D2E876400C9C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702658D91D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702658DA1D2E876400C9C06F /* Debug */,
+				702658DB1D2E876400C9C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702658DC1D2E876400C9C06F /* Build configuration list for PBXNativeTarget "日历UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702658DD1D2E876400C9C06F /* Debug */,
+				702658DE1D2E876400C9C06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702658A11D2E876400C9C06F /* Project object */;
+}
